@@ -32,9 +32,10 @@ public class BinarySearch {
 			}	
 			else {
 				return start = mid+1;
-			}				
+			}	
 		}
 		return 0;
+		
 	}
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -47,11 +48,11 @@ public class BinarySearch {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
 		
-		int result = Search(arr, target, 0, n-1);
+		//int result = Search(arr, target, 0, n-1);
 		int result2 = Search2(arr, target, 0, n-1);
-		if(result==0)
+		if(result2==0)
 			System.out.println("원소가 존재하지 않습니다.");
 		else
-			System.out.println(result+1);
+			System.out.println(result2+1);
 	}
 }
