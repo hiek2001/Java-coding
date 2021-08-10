@@ -17,12 +17,10 @@ public class coding_313 {
 		
 		for(int i=1 ; i<arr.length ; i++) {
 			if(!arr[i-1].equals(arr[i])) {
-				if(arr[i-1].equals("0")) {
-					count0++;
-				}	
-				else {
+				if(arr[i-1].equals("0")) 
+					count0++;	
+				else 
 					count1++;
-				}
 					
 			}
 		}
