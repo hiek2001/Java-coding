@@ -31,7 +31,7 @@ public class bj1874 {
 			}
 			
 			int poll = stack[--ptr];
-			sb.append("-").append("\n");
+			sb.append("-").append('\n');
 		}
 		System.out.println(sb);
 	}
